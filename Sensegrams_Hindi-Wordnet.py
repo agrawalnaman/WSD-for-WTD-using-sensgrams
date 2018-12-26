@@ -41,6 +41,7 @@ def main():
 		set2=eval(line1) 
 		set3 = [value for value in x if value in set2]
 		if set3:
+			#for 5 and above matches/intersection between sets. 
 			if len(set3)>4: 																																																																																																																																																																																																																																																															
 				print("set1 intersection set2 : ", set3)
 				print(i)
